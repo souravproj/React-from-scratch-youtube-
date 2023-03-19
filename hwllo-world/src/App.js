@@ -1,15 +1,19 @@
 import './App.css';
 import Counter from './components/Counter';
- import {Greet} from './components/Greet';//this is only for when we write export with function
+ //import {Greet} from './components/Greet';//this is only for when we write export with function
 import Messege from './components/Messege';
 import Hello from './components/hello';
-// import Greet from './components/Greet';
+ import Greet from './components/Greet';
 import Welcome from './components/welcome'
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <ClassClick/>
+      <FunctionClick/>
+      {/* <Counter/> */}
       {/* <Messege/> */}
 
      
@@ -21,8 +25,8 @@ function App() {
       <Greet name="Clark" heroName="Superman">
         <button>Action</button>
       </Greet>
-      <Greet name="Diana" heroName="Wonder Woman"/>
-    <Welcome name="Bruce" heroName="Batsman"/>
+      <Greet name="Diana" heroName="Wonder Woman"/> */}
+    {/* <Welcome name="Bruce" heroName="Batsman"/>
     <Welcome name="Clark" heroName="Superman"/>
     <Welcome name="Diana" heroName="Wonder Woman"/> */}
         {/* <Hello/> */}
