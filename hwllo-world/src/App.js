@@ -7,12 +7,20 @@ import Hello from './components/hello';
 import Welcome from './components/welcome'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import Usergreeting from './components/Usergreeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
     <div className="App">
-      <ClassClick/>
-      <FunctionClick/>
+      <NameList/>
+      {/* <Usergreeting/> */}
+      {/* <ParentComponent/> */}
+      {/* <EventBind/> */}
+      {/* <ClassClick/>
+      <FunctionClick/> */}
       {/* <Counter/> */}
       {/* <Messege/> */}
 
