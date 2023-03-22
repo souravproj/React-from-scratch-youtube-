@@ -3,7 +3,7 @@ import Counter from './components/Counter';
  //import {Greet} from './components/Greet';//this is only for when we write export with function
 import Messege from './components/Messege';
 import Hello from './components/hello';
- import Greet from './components/Greet';
+import Greet from './components/Greet';
 import Welcome from './components/welcome'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
@@ -14,14 +14,19 @@ import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet';
 import Inline from './components/Inline';
 import styles from'./appStyle.module.css';
-import  './appStyles.css'
+import  './appStyles.css'; 
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
-      <Inline/>
+
+         <Form/>
+
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+      
+      {/* <Inline/> */}
       {/* <StyleSheet primary={true}/> */}
       {/* <NameList/> */}
       {/* <Usergreeting/> */}
