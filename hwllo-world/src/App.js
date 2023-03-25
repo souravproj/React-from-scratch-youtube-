@@ -1,6 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
- //import {Greet} from './components/Greet';//this is only for when we write export with function
+//import {Greet} from './components/Greet';//this is only for when we write export with function
 import Messege from './components/Messege';
 import Hello from './components/hello';
 import Greet from './components/Greet';
